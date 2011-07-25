@@ -15,7 +15,8 @@
         BusStop.prototype.whereIsTheBus=function(){};
 
 
-        var Bus = function(){
+        var Bus = function(busNo){
+            this.busNo=busNo;
             this.route=[];
 
         };
