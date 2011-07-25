@@ -5,6 +5,35 @@
     <title></title>
 </head>
 <body>
+    <script type="text/javascript" src="js/third_party/tartJS/third_party/jquery/jquery-1.5.2.js"></script>
+    <script type="text/javascript" src="js/third_party/tartJS/tart/tart.js"></script>
+    <script type="text/javascript" src="js/third_party/tartJS/tart/string/string.js"></script>
+    <script type="text/javascript">
+
+        var BusStop = function(){};
+
+        BusStop.prototype.whereIsTheBus=function(){};
+
+
+        var Bus = function(){
+            this.route=[];
+
+        };
+
+        var Event = function(){
+            this.body;
+            this.header;
+        };
+
+        var EventManager = function(){
+            this.subscribers=[];
+        };
+
+        EventManager.prototype.subscribe = function(){};
+        EventManager.prototype.publish = function(){};
+        
+
+    </script>
 
 </body>
 </html>
